@@ -1,0 +1,17 @@
+.alert-box {
+    &__headline {
+        text-align: center;
+        font-size: 20px;
+        color: $color5;
+    }
+    &__main-container {
+        display: flex;
+    }
+    &__sub-container {
+        width: 33%;
+        border: 1px solid black;
+        margin: 10px;
+        text-align: center;
+        padding: 10px;
+    }
+}
