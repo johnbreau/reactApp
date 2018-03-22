@@ -15,6 +15,9 @@ class Nav extends React.Component {
           <Link to='/about'>About</Link>
         </div>
         <div>
+          <Link to='/board'>Tic Tac Toe</Link>
+        </div>
+        <div>
           <Link to='/view'>Nested View</Link>
         </div>
       </nav>

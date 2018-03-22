@@ -6,14 +6,15 @@ import HasService from './HasService';
 import Survey from './Survey/Survey';
 
 class Home extends React.Component {
+
   render() {
     return (
       <div>
         <h1 class="header-test">Home</h1>
-        <Survey />
-        <HelloWorld />
-        <HasService />
-        <AlertBox />
+          <Survey />
+          <HelloWorld />
+          <HasService />
+          <AlertBox />
         <div clas="test-class">
         </div>
         <p>

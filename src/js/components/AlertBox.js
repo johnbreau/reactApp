@@ -3,7 +3,7 @@ import React from 'react';
 class AlertBox extends React.Component {
 
 whichBox(boxNumber) {
-    console.log('?', boxNumber);
+    console.log(boxNumber);
     // window.alert('you clicked box', boxNumber);
 }
 
@@ -16,6 +16,7 @@ return (
             <div class="alert-box__sub-container" onClick={(boxNumber) => { var boxNumber = 2; this.whichBox(boxNumber); }}>2</div>
             <div class="alert-box__sub-container" onClick={(boxNumber) => { var boxNumber = 3; this.whichBox(boxNumber); }}>3</div>
         </div>
+  
     </div>
 );
 }
